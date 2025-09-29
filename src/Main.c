@@ -3,7 +3,7 @@
 void Setup(AlxWindow* w){
     Clear(BLACK);
 }
-void Update(double ElapsedTime){
+void Update(AlxWindow* w){
     if(Stroke(ALX_MOUSE_L).DOWN){
         int index = window.MouseY * window.Width + window.MouseX;
         if(index>=0 && index<window.Width * window.Height){
