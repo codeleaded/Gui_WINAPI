@@ -1,9 +1,7 @@
 #if defined(__linux__) && !defined(_WIN32)
-    // Echter Linux-Native-Build
     #include "/home/codeleaded/System/Static/Library/WindowEngine1.0.h"
 #elif defined(_WIN32)
-    // Cross-Build oder echtes Windows
-    #include "/home/codeleaded/System/Static/Library/WindowEngine1.0.h" // Linux-Pfad!
+    #include "/home/codeleaded/System/Static/Library/WindowEngine1.0.h"
 #else
     #error "Platform not supported!"
 #endif
