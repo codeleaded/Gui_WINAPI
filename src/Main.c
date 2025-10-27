@@ -8,12 +8,10 @@
     #error "Platform not supported!"
 #endif
 
-
 void Setup(AlxWindow* w){
-
+    
 }
 void Update(AlxWindow* w){
-    
     Clear(BLACK);
     RenderCStr("Hello World",10,10,BLUE);
 }
@@ -27,3 +25,4 @@ int main() {
     }
     return 0;
 }
+
